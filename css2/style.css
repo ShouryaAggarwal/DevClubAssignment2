@@ -1,0 +1,50 @@
+.master
+{
+	background-color:grey;
+	width:54%;
+	margin:auto;
+	border:hidden;
+	border-radius:25px;
+	font-family: arial;
+	font-weight:100;
+	color:white;
+	text-align:center;
+	margin-top:20px;
+	padding:15px;
+	padding-top:0px;
+}
+
+.img1
+{
+	border:hidden;
+	border-radius:25px;
+	float:left;
+	margin-left:4px;
+	margin-bottom:5px;
+}
+
+.img2
+{
+	border:hidden;
+	border-radius:25px;
+	float:center;
+	margin-bottom:5px;
+}
+
+.img3
+{
+	border:hidden;
+	border-radius:25px;
+	float:right;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+
+body
+{
+	background-color: black;
+	background-image: url(background.svg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}

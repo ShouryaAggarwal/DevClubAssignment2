@@ -1,7 +1,7 @@
 .master
 {
 	background-color:grey;
-	width:54%;
+	<!--width:58%;-->
 	margin:auto;
 	border:hidden;
 	border-radius:25px;
@@ -18,7 +18,7 @@
 {
 	border:hidden;
 	border-radius:25px;
-	float:left;
+	<!--float:left;-->
 	margin-left:4px;
 	margin-bottom:5px;
 }
@@ -27,7 +27,7 @@
 {
 	border:hidden;
 	border-radius:25px;
-	float:center;
+	<!--float:center;-->
 	margin-bottom:5px;
 }
 
@@ -35,7 +35,7 @@
 {
 	border:hidden;
 	border-radius:25px;
-	float:right;
+	<!--float:right;-->
 	margin-right:10px;
 	margin-bottom:5px;
 }

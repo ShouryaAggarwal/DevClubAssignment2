@@ -9,9 +9,18 @@ function myFunc(task)
 				var thing= document.createElement("li");
 					thing.class = "thing";
 					thing.id = "thing";
-					thing.onclick = function() {
-					var line = this.innerHTML;
-					this.innerHTML="<s>" + line + "</s>"; }
+					
+					
+					
+				var list = document.querySelector('ul');
+				list.addEventListener('click', function(ev) 
+				{
+				if (ev.target.tagName === 'li')
+				{	ev.target.classList.toggle('checked');	}
+				}
+				, false);
+					
+					
 					thing.innerHTML = task;
 				var bt1= document.createElement("button");
 				bt1.type = "button";

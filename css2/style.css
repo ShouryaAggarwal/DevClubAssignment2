@@ -40,6 +40,20 @@
 	margin-bottom:5px;
 }
 
+#popup
+{
+	position: fixed;
+	top: 100px;
+	left:500px;
+	z-index: 99;
+	box-shadow: black 5px 5px;
+	height: 500px;
+	width: 500px;
+	border:hidden;
+	border-radius:25px;
+
+}
+
 body
 {
 	background-color: black;

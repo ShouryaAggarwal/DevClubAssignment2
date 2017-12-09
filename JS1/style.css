@@ -120,8 +120,17 @@ h3
 	top:1px;
 }
 
+ul li.checked 
+{
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+
 ul li
 {
+	content: '';
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
